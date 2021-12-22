@@ -1,0 +1,63 @@
+@mixin search {
+    width: 95%;
+    height: 46px;
+    padding: 10px;
+    padding-bottom: 14px;
+    background-color:color(search);
+    border: none;
+    position: relative;
+    border-radius: 4px;
+    font-size: 17px;
+}
+@mixin btn-search {
+    height: 28px;
+    width: 28px;
+    border: none;
+    border-radius:2px ;
+    font-size: 30px;
+    color: #fff;
+    background-color: black;
+    position: absolute;
+    transform: translateX(-36px) translateY(9px);
+}
+@mixin esc-btn {
+    float: right;
+    background-color:color(primary);
+    border: 1px solid color(search);
+    border-radius: 5px;
+    padding: 0 5px ;
+    color: color(header);
+    font-size: .9rem;
+    margin-top:3px ;
+}
+@mixin user-img($width) {
+    display: inline;
+    width: $width;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+@mixin group-members($bgc,$fontColor) {
+    padding-bottom: 12px;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    display: inline-block;
+    background-color:color($bgc);
+    text-align: center;
+    font-weight: bold;
+    color: color($fontColor);
+}
+@mixin header-btn($bgc,$border,$fontcolor) {
+    background-color: color($bgc);
+    border:2px solid color($border);
+    border-radius: 3px;
+    padding: 0px 10px ;
+    color: color($fontcolor);
+    padding-bottom: 3px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+@mixin hover-user {
+    font-weight: 500;
+    color: #fff;
+}

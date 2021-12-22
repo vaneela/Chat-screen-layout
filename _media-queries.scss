@@ -1,0 +1,42 @@
+@media (max-width:768px){
+    .input-icons{
+        margin-bottom: 0;
+        right: 50px;
+    } 
+    .new-msg-ind{
+        right: 50px;
+    }          
+}
+
+@media (min-width: 769px){
+    .input-icons{
+        margin-bottom: 0;
+        right: 40px;
+    }   
+     
+    .new-msg-ind{
+        right: 40px;
+    }        
+}
+
+@media (min-width: 1000px){
+    .input-icons{
+        margin-bottom: 0;
+        right: 60px;
+    }
+     
+    .new-msg-ind{
+        right: 60px;
+    }
+}
+
+@media (min-width: 1100px){
+    .input-icons{
+        margin-bottom: 0;
+        right: 80px;
+    }
+     
+    .new-msg-ind{
+        right: 80px;
+    }           
+}
